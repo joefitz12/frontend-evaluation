@@ -1,0 +1,16 @@
+div.post {
+	border-radius: 5px;
+	border: 1px solid black;
+	margin-bottom: 1rem;
+	min-height: 10rem;
+}
+
+.post__header,
+.post__footer {
+	display: flex;
+	column-gap: 10px;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 0.5rem;
+	padding: 1rem;
+}

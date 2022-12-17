@@ -1,3 +1,22 @@
 .App {
-  text-align: center;
+	text-align: center;
+}
+
+:root {
+	font-size: 16px;
+}
+
+main {
+	max-width: 450px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#loader {
+	display: none;
+}
+
+main + #loader {
+	display: block;
 }
